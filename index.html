@@ -3,11 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<title>Create image</title>
+	<style>
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	</style>
+	<title>Kitten</title>
 </head>
 <body>
 <!--Cuerpo-->
-	</div>
+	<picture>
+		<source 
+			media="(min-width: 650px)"	
+			srcset="img/kitten-large.png">
+		<source 
+			media="(min-width: 465px)"	
+			srcset="img/kitten-medium.png">
+		<img
+		src="img/kitten-small.png"
+		alt="a cute kitten">
+	</picture>
 <!--Script-->
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
