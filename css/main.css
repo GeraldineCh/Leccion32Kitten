@@ -3,27 +3,26 @@ body {
 	margin: 0;
 }
 
-img {
-	align-content: center;
-}
 
-@media (min-width: 1000px) {
+@media (min-width: 650px) {
 	body {
 	background-image: url(../img/Landscape.jpg);
+	max-width: 100%;
 	}
 }
 
-@media (min-width: 650px) {
+@media (max-width: 650px) {
 	body {
 		background-image: url(../img/dawn.png);
 		max-width: 100%;
 	}
 }
 
-@media (min-width: 465px) {
+@media (max-width: 465px) {
 	body {
 		background-image: url(../img/maxresdefault.jpg);
 		max-width: 100%;
 	}
 }
+
 
