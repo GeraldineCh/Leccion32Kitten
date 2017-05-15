@@ -2,23 +2,24 @@ body {
 	margin: 0;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 650px) {
 	body {
 	background-image: url(../img/Landscape.jpg);
 	}
 }
 
-@media (min-width: 650px) {
+@media (max-width: 650px) {
 	body {
 		background-image: url(../img/dawn.png);
 		max-width: 100%;
 	}
 }
 
-@media (min-width: 465px) {
+@media (max-width: 465px) {
 	body {
 		background-image: url(../img/maxresdefault.jpg);
 		max-width: 100%;
 	}
 }
+
 
